@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+   
+</head>
+<body>
+    <nav class="bg-[#0d6efd] bg-opacity-5 h-[806px]">
+        <div class="flex px-[150px] py-[67px] justify-between">
+            <h4>Hot Gadgets</h4>
+            <button class="btn-primary">Sign Up</button>
+        </div>
+        <div class="text-center mt-[67px]">
+            <h1 class="font-bold mb-[24px]">Apple Iphone 13 Pro Max</h1>
+            <h5 class="text-[#706F6F] mb-[32px]">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humou.</h5>
+            <button class="btn-primary">Buy Now</button>
+        </div>
+        <div class="flex gap-x-[56px] items-end justify-center mt-[72px]">
+            <img class="max-h-[438px] max-w-[218px]" src="image/pngwing 2.png" alt="">
+            <img class="max-h-[585px] max-w-[293px]" src="image/pngwing 1.png" alt="">
+            <img class="max-h-[438px] max-w-[218px]" src="image/pngwing 2.png" alt="">
+        </div>
+    </nav>
+    <main class="mt-[413px]">
+        <section class="text-center">
+            <h3 class="font-semibold mb-8">Search your phone</h3>
+            <div class="flex bg-[#100f0f] bg-opacity-5 max-w-[752px] mx-auto mb-12 rounded-lg">
+                <input id="search_text" class="bg-transparent px-5 py-[17px] flex-1 outline-none" type="text" name="" id="" placeholder="Search your phone" required>
+                <button onclick="search()" class="btn-primary">Search</button>
+            </div>
+        </section>
+        <section id="show_phone" class="flex flex-wrap gap-4 justify-center">
+        
+        </section>
+        <!-- Open the modal using ID.showModal() method -->
+        <dialog id="my_modal_1" class="modal">
+            <section id="modal_phone" class="flex flex-col items-center p-[25px] border-[1px] border-[#CFCFCF] max-w-[752px] rounded-xl text-left">
+                
+            </section>
+        </dialog>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
